@@ -1,0 +1,30 @@
+# ---- Proprietary vendor binaries (DO NOT COMMIT) ----------------------------
+# These are miSafes/InfoTM firmware code. They are NOT shipped: bootstrap_demo.sh
+# regenerates them on first boot from the camera's own /opt/ipnc/demo.
+sdcard/demo
+sdcard/demo_orig
+sdcard/demo_dump
+sdcard/demo_audio
+sdcard/demo_se0
+sdcard/demo_se1
+sdcard/demo_se2
+
+# ---- Secrets / personal identity --------------------------------------------
+sdcard/secrets.conf
+sdcard/authorized_keys
+
+# ---- Runtime artifacts, logs, recordings, backups ---------------------------
+sdcard/*.log
+sdcard/*.bak*
+sdcard/*.singlemux
+sdcard/*.patched
+sdcard/wifi_result.txt
+sdcard/ssh_log.txt
+sdcard/diag_report.txt
+sdcard/led_report.txt
+sdcard/isptest.log
+sdcard/dump.hevc
+sdcard/DCIM/
+sdcard/FOUND.*
+sdcard/System Volume Information/
+sdcard/dropbear_rsa_host_key

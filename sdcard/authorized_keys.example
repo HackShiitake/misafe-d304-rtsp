@@ -1,0 +1,5 @@
+# Rename to authorized_keys and put on the SD root (/mnt/mmc/authorized_keys).
+# Paste YOUR OWN SSH public key below (one per line) for dropbear pubkey login:
+#   ssh-rsa AAAA... you@host
+# Generate one with:  ssh-keygen -t rsa -b 3072
+# This file is gitignored so your key is never published.

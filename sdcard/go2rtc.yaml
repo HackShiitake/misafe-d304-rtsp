@@ -1,0 +1,12 @@
+log:
+  level: debug
+api:
+  listen: ":1984"
+rtsp:
+  listen: ":8554"
+webrtc:
+  listen: ""
+srtp:
+  listen: ""
+streams:
+  cam:
